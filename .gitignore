@@ -1,0 +1,27 @@
+# Python
+venv/
+.venv/
+.venv*/
+venv312/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+
+# Env files and secrets
+.env
+.env.*
+
+# IDE / OS
+.idea/
+.DS_Store
+Thumbs.db
+
+# Student / session data (personal data, keep out of Git)
+**/data/results/
+**/data/sessions/
+**/data/unknown_user_*.json
+
+
+**/data/training_from_sessions.csv
